@@ -32,6 +32,7 @@ namespace GitHub_Flow_Demo
             Console.WriteLine("Div: " + Div(int.Parse(numbers[0]), int.Parse(numbers[1])));
             Console.WriteLine("Mod: " + Mod(int.Parse(numbers[0]), int.Parse(numbers[1])));
             Console.WriteLine("Pow: " + Pow(int.Parse(numbers[0]), int.Parse(numbers[1])));
+            Console.WriteLine("Exit");
         }
     }
 }
