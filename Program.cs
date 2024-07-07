@@ -7,6 +7,11 @@ namespace GitHub_Flow_Demo
         static int Add(int x, int y) => x + y;
 
         static int Sub(int x, int y) => x - y;
+
+        static int Mul(int x, int y) => x * y;
+
+        static int Div(int x, int y) => x / y;
+
         static void Main(string[] args)
         {
             Console.WriteLine("Input two numbers split by a space to calculate:");
@@ -19,6 +24,8 @@ namespace GitHub_Flow_Demo
             string[] numbers = input.Split(' ');
             Console.WriteLine("Sum: " + Add(int.Parse(numbers[0]), int.Parse(numbers[1])));
             Console.WriteLine("Sub: " + Sub(int.Parse(numbers[0]), int.Parse(numbers[1])));
+            Console.WriteLine("Mul: " + Mul(int.Parse(numbers[0]), int.Parse(numbers[1])));
+            Console.WriteLine("Div: " + Div(int.Parse(numbers[0]), int.Parse(numbers[1])));
         }
     }
 }
