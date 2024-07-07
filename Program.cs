@@ -12,6 +12,10 @@ namespace GitHub_Flow_Demo
 
         static int Div(int x, int y) => x / y;
 
+        static int Mod(int x, int y) => x % y;
+
+        static int Pow(int x, int y) => (int)Math.Pow(x, y);
+
         static void Main(string[] args)
         {
             Console.WriteLine("Input two numbers split by a space to calculate:");
@@ -26,6 +30,8 @@ namespace GitHub_Flow_Demo
             Console.WriteLine("Sub: " + Sub(int.Parse(numbers[0]), int.Parse(numbers[1])));
             Console.WriteLine("Mul: " + Mul(int.Parse(numbers[0]), int.Parse(numbers[1])));
             Console.WriteLine("Div: " + Div(int.Parse(numbers[0]), int.Parse(numbers[1])));
+            Console.WriteLine("Mod: " + Mod(int.Parse(numbers[0]), int.Parse(numbers[1])));
+            Console.WriteLine("Pow: " + Pow(int.Parse(numbers[0]), int.Parse(numbers[1])));
         }
     }
 }
